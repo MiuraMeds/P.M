@@ -39,16 +39,23 @@ int main(){
             }
             break;
             case 2:
-            if(notas[20]>14){
+            
+            if(notas[i]>14){
                 cout<<"LOS ESTUDIANTES APROBADOS SON"<<nombres[i]<<endl;
-            } else (notas[20]<14);{
+            } else (notas[i]<14);{
                 cout<<"LOS ESTUDIANTE QUE NO APROBARON SON"<<nombres[i]<<endl;
             }
             break;
             case 3:
+            cout<<"INGRESE EL NOMBRE QUE DESEA BUSCAR"<<endl;
+            cin>>nombres[20];
             if(nombres[i]==nombres[20]){
                 nombres[i]=true;
             }
+            break;
+
+            case 4:
+            cout<<"GRACIAS POR USAR ESTE SISTEMA";
             break;
 
         }
